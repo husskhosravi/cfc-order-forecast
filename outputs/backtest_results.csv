@@ -1,0 +1,7 @@
+model,mae,rmse,bias,mape_pct
+Historical mean (benchmark),47.5,56.0,0.1,12.16
+Holt-Winters: level only,47.5,56.0,0.1,12.16
+Holt-Winters: level + damped trend + weekly seasonality,47.8,56.4,0.2,12.23
+Holt-Winters: level + weekly seasonality,47.8,56.4,0.1,12.23
+Seasonal naive - same day last week (benchmark),60.2,74.9,8.7,15.09
+Naive - last value (benchmark),74.0,89.0,-39.0,19.76

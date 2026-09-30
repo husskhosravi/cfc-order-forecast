@@ -1,0 +1,4 @@
+scenario,total_orders,avg_daily,peak_day_expected,peak_day_80_upper,promo_days,days_80_upper_above_capacity,vs_base_orders,vs_base_pct
+Base case,148586,407.1,503,593,17,17,0,0.0
+Scenario 1: Increased promotions,155125,425.0,604,711,41,41,6539,4.4
+Scenario 2: Market downturn,141232,386.9,503,593,17,10,-7354,-4.9

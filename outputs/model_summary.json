@@ -1,0 +1,107 @@
+{
+  "selected_model": "Holt-Winters: level only",
+  "selection_rule": "Holt-Winters configuration with lowest cross-validated MAPE",
+  "benchmark_model": "Historical mean (benchmark)",
+  "cv_design": "Rolling origin, 6 folds x 30-day horizon over the last 180 days of FY24",
+  "cv_selected": {
+    "mae": 47.5,
+    "rmse": 56.0,
+    "bias": 0.1,
+    "mape_pct": 12.16
+  },
+  "cv_benchmark": {
+    "mae": 47.5,
+    "rmse": 56.0,
+    "bias": 0.1,
+    "mape_pct": 12.16
+  },
+  "cv_seasonal_naive": {
+    "mae": 60.2,
+    "rmse": 74.9,
+    "bias": 8.7,
+    "mape_pct": 15.09
+  },
+  "hw_parameters_full_fit": {
+    "smoothing_level": 0.0,
+    "smoothing_trend": null,
+    "smoothing_seasonal": null,
+    "damping_trend": null
+  },
+  "daily_sigma_out_of_sample": 56.0,
+  "level_standard_error": 3.04,
+  "fy24": {
+    "total_orders": 147269,
+    "days": 366,
+    "avg_daily": 402.4
+  },
+  "fy25": {
+    "days": 365,
+    "baseline_daily": 402.4,
+    "baseline_total": 146876.0,
+    "total_orders": 148586.0,
+    "avg_daily": 407.1,
+    "total_80": [
+      146588.0,
+      150585.0
+    ],
+    "total_95": [
+      145530.0,
+      151642.0
+    ],
+    "change_vs_fy24_total_pct": 0.89,
+    "change_vs_fy24_avg_daily_pct": 1.17,
+    "regular_day_80_range": [
+      330.0,
+      474.0
+    ],
+    "regular_day_95_range": [
+      292.0,
+      512.0
+    ],
+    "promo_day_expected": 503.0,
+    "promo_day_upper_95": 641.0,
+    "promo_day_upper_80": 593.0
+  },
+  "promotions": {
+    "uplift_assumed_pct": 25.0,
+    "promo_days": 17,
+    "incremental_orders": 1710.0,
+    "events": {
+      "Competitor mega sale (July)": {
+        "start": "2024-07-16",
+        "end": "2024-07-17",
+        "days": 2,
+        "incremental_orders": 201.0
+      },
+      "Competitor mega sale (November)": {
+        "start": "2024-11-12",
+        "end": "2024-11-13",
+        "days": 2,
+        "incremental_orders": 201.0
+      },
+      "Black Friday to Cyber Monday": {
+        "start": "2024-11-29",
+        "end": "2024-12-02",
+        "days": 4,
+        "incremental_orders": 402.0
+      },
+      "Competitor mega sale (Boxing Day)": {
+        "start": "2024-12-26",
+        "end": "2024-12-27",
+        "days": 2,
+        "incremental_orders": 201.0
+      },
+      "End of financial year": {
+        "start": "2025-06-24",
+        "end": "2025-06-30",
+        "days": 7,
+        "incremental_orders": 704.0
+      }
+    }
+  },
+  "monitoring_trigger": {
+    "window_days": 28,
+    "threshold_orders_per_day": 21.2,
+    "threshold_pct": 5.3
+  }
+}

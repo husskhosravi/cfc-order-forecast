@@ -1,0 +1,15 @@
+# Case-study data is not published
+data/*.xlsx
+data/*.csv
+
+# Derived order-level file
+outputs/fy24_daily_orders.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

@@ -1,0 +1,241 @@
+{
+  "profile": {
+    "rows": 147269,
+    "missing_values": 0,
+    "duplicate_order_ids": 1237,
+    "date_from": "2023-07-01",
+    "date_to": "2024-06-30",
+    "days": 366,
+    "total_sales_aud": 14711109.68,
+    "total_units": 3163749,
+    "unique_customers": 2000,
+    "aov_mean": 99.89,
+    "aov_min": 50.0,
+    "aov_max": 150.0,
+    "units_mean": 21.5,
+    "units_min": 11,
+    "units_max": 32,
+    "lead_time_hours_median": 39.6,
+    "lead_time_hours_mean": 50.4,
+    "lead_time_hours_min": 6.0,
+    "lead_time_hours_max": 189.0,
+    "segments": {
+      "B2B": {
+        "orders": 29458,
+        "share": 0.2,
+        "sales_aud": 2933969.0,
+        "aov": 99.6,
+        "units_per_order": 21.4
+      },
+      "B2C": {
+        "orders": 117811,
+        "share": 0.8,
+        "sales_aud": 11777141.0,
+        "aov": 99.97,
+        "units_per_order": 21.5
+      }
+    },
+    "service_share": {
+      "Partner Delivery": 0.335,
+      "Unattended Delivery": 0.333,
+      "Home Delivery": 0.332
+    },
+    "service_share_by_segment": {
+      "B2B": {
+        "Home Delivery": 0.333,
+        "Partner Delivery": 0.337,
+        "Unattended Delivery": 0.331
+      },
+      "B2C": {
+        "Home Delivery": 0.332,
+        "Partner Delivery": 0.334,
+        "Unattended Delivery": 0.333
+      }
+    }
+  },
+  "daily_series": {
+    "mean": 402.4,
+    "median": 398.0,
+    "std": 58.1,
+    "min": 302,
+    "max": 499,
+    "cv": 0.144,
+    "min_date": "2023-07-28",
+    "max_date": "2023-10-09"
+  },
+  "day_of_week": {
+    "Mon": {
+      "days": 52,
+      "mean": 396.8,
+      "ci95": 15.3,
+      "index": 0.986
+    },
+    "Tue": {
+      "days": 52,
+      "mean": 397.4,
+      "ci95": 16.9,
+      "index": 0.988
+    },
+    "Wed": {
+      "days": 52,
+      "mean": 412.0,
+      "ci95": 16.4,
+      "index": 1.024
+    },
+    "Thu": {
+      "days": 52,
+      "mean": 404.3,
+      "ci95": 16.8,
+      "index": 1.005
+    },
+    "Fri": {
+      "days": 52,
+      "mean": 408.3,
+      "ci95": 15.4,
+      "index": 1.015
+    },
+    "Sat": {
+      "days": 53,
+      "mean": 402.2,
+      "ci95": 16.3,
+      "index": 1.0
+    },
+    "Sun": {
+      "days": 53,
+      "mean": 395.7,
+      "ci95": 16.0,
+      "index": 0.983
+    }
+  },
+  "month": {
+    "Jul": {
+      "days": 31,
+      "total": 12355,
+      "mean": 398.5,
+      "ci95": 22.5,
+      "index": 0.99
+    },
+    "Aug": {
+      "days": 31,
+      "total": 12335,
+      "mean": 397.9,
+      "ci95": 19.8,
+      "index": 0.989
+    },
+    "Sep": {
+      "days": 30,
+      "total": 12394,
+      "mean": 413.1,
+      "ci95": 24.5,
+      "index": 1.027
+    },
+    "Oct": {
+      "days": 31,
+      "total": 12657,
+      "mean": 408.3,
+      "ci95": 23.1,
+      "index": 1.015
+    },
+    "Nov": {
+      "days": 30,
+      "total": 11834,
+      "mean": 394.5,
+      "ci95": 23.3,
+      "index": 0.98
+    },
+    "Dec": {
+      "days": 31,
+      "total": 12526,
+      "mean": 404.1,
+      "ci95": 20.6,
+      "index": 1.004
+    },
+    "Jan": {
+      "days": 31,
+      "total": 12053,
+      "mean": 388.8,
+      "ci95": 22.5,
+      "index": 0.966
+    },
+    "Feb": {
+      "days": 29,
+      "total": 11937,
+      "mean": 411.6,
+      "ci95": 21.0,
+      "index": 1.023
+    },
+    "Mar": {
+      "days": 31,
+      "total": 12338,
+      "mean": 398.0,
+      "ci95": 19.2,
+      "index": 0.989
+    },
+    "Apr": {
+      "days": 30,
+      "total": 12158,
+      "mean": 405.3,
+      "ci95": 19.9,
+      "index": 1.007
+    },
+    "May": {
+      "days": 31,
+      "total": 12591,
+      "mean": 406.2,
+      "ci95": 20.5,
+      "index": 1.009
+    },
+    "Jun": {
+      "days": 30,
+      "total": 12091,
+      "mean": 403.0,
+      "ci95": 23.0,
+      "index": 1.002
+    }
+  },
+  "tests": {
+    "day_of_week_anova_p": 0.735,
+    "month_anova_p": 0.931,
+    "trend_slope_orders_per_day": 0.0013,
+    "trend_slope_p": 0.964,
+    "trend_implied_change_over_year": 0.5,
+    "first_30_days_mean": 398.7,
+    "last_30_days_mean": 403.0,
+    "h1_mean": 403.3,
+    "h2_mean": 401.5,
+    "h1_vs_h2_ttest_p": 0.773,
+    "autocorrelation": {
+      "lag_1": -0.021,
+      "lag_7": -0.037,
+      "lag_14": -0.056,
+      "lag_30": -0.037
+    },
+    "autocorrelation_95pct_band": 0.102,
+    "ks_uniform_p": 0.657
+  },
+  "historical_promo_windows": {
+    "Black Friday weekend 2023 (24-27 Nov)": {
+      "mean": 422.2,
+      "vs_overall_pct": 4.9,
+      "values": [
+        402,
+        417,
+        478,
+        392
+      ]
+    },
+    "FY end 2024 (24-30 Jun)": {
+      "mean": 419.7,
+      "vs_overall_pct": 4.3,
+      "values": [
+        458,
+        496,
+        388,
+        354,
+        321,
+        432,
+        489
+      ]
+    }
+  }
+}

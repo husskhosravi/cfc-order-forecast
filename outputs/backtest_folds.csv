@@ -1,0 +1,37 @@
+model,fold,test_start,mae,mape
+Historical mean (benchmark),1,2024-01-03,51.98,14.21
+Naive - last value (benchmark),1,2024-01-03,93.03,26.73
+Seasonal naive - same day last week (benchmark),1,2024-01-03,76.47,20.13
+Holt-Winters: level only,1,2024-01-03,51.98,14.21
+Holt-Winters: level + weekly seasonality,1,2024-01-03,53.12,14.5
+Holt-Winters: level + damped trend + weekly seasonality,1,2024-01-03,53.09,14.49
+Historical mean (benchmark),2,2024-02-02,47.72,11.6
+Naive - last value (benchmark),2,2024-02-02,56.6,13.13
+Seasonal naive - same day last week (benchmark),2,2024-02-02,73.67,17.24
+Holt-Winters: level only,2,2024-02-02,47.72,11.6
+Holt-Winters: level + weekly seasonality,2,2024-02-02,48.02,11.67
+Holt-Winters: level + damped trend + weekly seasonality,2,2024-02-02,48.09,11.67
+Historical mean (benchmark),3,2024-03-03,42.96,11.26
+Naive - last value (benchmark),3,2024-03-03,71.2,19.74
+Seasonal naive - same day last week (benchmark),3,2024-03-03,50.33,12.99
+Holt-Winters: level only,3,2024-03-03,42.96,11.26
+Holt-Winters: level + weekly seasonality,3,2024-03-03,42.03,11.02
+Holt-Winters: level + damped trend + weekly seasonality,3,2024-03-03,42.04,11.02
+Historical mean (benchmark),4,2024-04-02,47.2,11.61
+Naive - last value (benchmark),4,2024-04-02,56.43,12.9
+Seasonal naive - same day last week (benchmark),4,2024-04-02,46.7,10.87
+Holt-Winters: level only,4,2024-04-02,47.2,11.61
+Holt-Winters: level + weekly seasonality,4,2024-04-02,47.26,11.67
+Holt-Winters: level + damped trend + weekly seasonality,4,2024-04-02,47.3,11.67
+Historical mean (benchmark),5,2024-05-02,43.46,10.99
+Naive - last value (benchmark),5,2024-05-02,90.77,24.7
+Seasonal naive - same day last week (benchmark),5,2024-05-02,60.6,15.59
+Holt-Winters: level only,5,2024-05-02,43.46,10.99
+Holt-Winters: level + weekly seasonality,5,2024-05-02,43.13,10.92
+Holt-Winters: level + damped trend + weekly seasonality,5,2024-05-02,43.13,10.92
+Historical mean (benchmark),6,2024-06-01,51.83,13.31
+Naive - last value (benchmark),6,2024-06-01,76.17,21.36
+Seasonal naive - same day last week (benchmark),6,2024-06-01,53.3,13.74
+Holt-Winters: level only,6,2024-06-01,51.83,13.31
+Holt-Winters: level + weekly seasonality,6,2024-06-01,53.08,13.59
+Holt-Winters: level + damped trend + weekly seasonality,6,2024-06-01,53.08,13.58
