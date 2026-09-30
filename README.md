@@ -1,6 +1,6 @@
 # FY25 Order Forecast for Customer Fulfilment Centres (CFCs)
 
-A case study in forecasting daily, weekly and monthly online orders for a grocery retailer's Customer Fulfilment Centres. It covers FY25 (1 July 2024 to 30 June 2025) and is built from one year of order history (FY24).
+A case study in forecasting daily, weekly and monthly online orders for an Australian grocery retailer's Customer Fulfilment Centres. It covers FY25 (1 July 2024 to 30 June 2025) and is built from one year of order history (FY24).
 
 ## Summary
 
@@ -21,13 +21,6 @@ A case study in forecasting daily, weekly and monthly online orders for a grocer
 | `outputs/` | Daily, weekly and monthly forecasts, backtest results, scenario results, Excel scenario tool |
 | `charts/` | All figures used in the documents |
 
-## Reproduce
-
-```bash
-pip install -r requirements.txt
-# place the case-study workbook in data/ (see data/README.md)
-python src/eda.py && python src/forecast.py && python src/scenarios.py
-```
 
 ## Key results
 
